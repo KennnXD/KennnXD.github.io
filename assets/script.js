@@ -454,7 +454,9 @@ function translateLanguage(lang) {
     }
 }
 
-function sendMessage() {
+function sendMessage(event) {
+    event.preventDefault();
+
     const name = document.getElementById('contact-3').value;
     const email = document.getElementById('contact-4').value;
     const phone = document.getElementById('contact-5').value;

@@ -153,7 +153,10 @@
         </div> -->
       </div>
       <div class="row d-flex justify-content-center mt-3" data-aos="fade-up" data-aos-duration="1000">
-        <div class="col-md-3 my-4">
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4 my-4">
           <div class="card shadow">
             <img src="assets/img/Moringa-Powder.jpg" alt="Moringa-Powder" class="rounded-top">
             <div class="card-body">
@@ -162,6 +165,9 @@
               <button type="button" class="btn btn-success float-end shadow" data-bs-toggle="modal" data-bs-target="#MoringaPowder" id="product-6">Details <i class="bi bi-caret-right-fill"></i></button>
             </div>
           </div>
+        </div>
+        <div class="col-md-4">
+
         </div>
       </div>
     </div>
@@ -177,21 +183,23 @@
      <div class="container text-center text-white">
        <h1 class="fw-bold" data-aos="fade-up" data-aos-duration="1000" id="contact-1">Contact Us</h1>
        <p data-aos="fade-up" data-aos-duration="1000" id="contact-2">For Dealing To Achieve the Deal.</p>
-      <div class="row d-flex align-items-center">
-        <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
-          <input type="text" class="form-control my-3 form-contact" id="contact-3" placeholder="Your Name *">
-          <input type="email" class="form-control my-3 form-contact" id="contact-4" placeholder="Your Email *">
-          <input type="tel" class="form-control my-3 form-contact" id="contact-5" placeholder="Your Phone *">
-        </div>
-        <div class="col-md-6" data-aos="fade-up" data-aos-duration="2000">
-          <textarea class="form-control my-3" id="contact-6" placeholder="Your Message *"></textarea>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12" data-aos="fade-up" data-aos-duration="1000">
-          <button class="btn btn-send fw-bold shadow" onclick="sendMessage()" id="contact-7">Send Message</button>
-        </div>
-      </div>
+       <form onsubmit="return sendMessage(event)">
+         <div class="row d-flex align-items-center">
+           <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
+             <input type="text" class="form-control my-3 form-contact" id="contact-3" placeholder="Your Name *" required>
+             <input type="email" class="form-control my-3 form-contact" id="contact-4" placeholder="Your Email *" required>
+             <input type="tel" class="form-control my-3 form-contact" id="contact-5" placeholder="Your Phone *" required>
+           </div>
+           <div class="col-md-6" data-aos="fade-up" data-aos-duration="2000">
+             <textarea class="form-control my-3" id="contact-6" placeholder="Your Message *" required></textarea>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-md-12" data-aos="fade-up" data-aos-duration="1000">
+             <button type="submit" class="btn btn-send fw-bold shadow" id="contact-7">Send Message</button>
+           </div>
+         </div>
+       </form>
      </div>
    </section>
   <!-- Contact End -->
