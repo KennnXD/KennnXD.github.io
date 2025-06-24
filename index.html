@@ -48,10 +48,10 @@
             Language
           </a>
           <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" id="lang-en" onclick="translateLanguage('en')">English (Active)</a></li>
-            <li><a class="dropdown-item" id="lang-id" onclick="translateLanguage('id')">Indonesia</a></li>
-            <li><a class="dropdown-item" id="lang-chn" onclick="translateLanguage('chn')">Chinese</a></li>
-            <li><a class="dropdown-item" id="lang-arb" onclick="translateLanguage('arb')">Arabic</a></li>
+            <li><a class="dropdown-item" id="lang-en">English (Active)</a></li>
+            <li><a class="dropdown-item" id="lang-id">Indonesia</a></li>
+            <li><a class="dropdown-item" id="lang-chn">Chinese</a></li>
+            <li><a class="dropdown-item" id="lang-arb">Arabic</a></li>
           </ul>
         </li>
       </ul>
@@ -141,7 +141,6 @@
    </section>
   <!-- Service End -->
   <!-- Product -->
-   <section class="products"></section>
   <section id="products">
     <div class="container">
       <div class="row d-flex align-items-center">
@@ -153,29 +152,13 @@
            <input class="form-control" id="product-3" type="search" id="searchInput" placeholder="Search Products" aria-label="Search"  autocomplete="off">
         </div> -->
       </div>
-      <div class="row d-flex justify-content-center mt-3" data-aos="fade-up" data-aos-duration="1000">
-        <div class="col-md-4">
-
-        </div>
-        <div class="col-md-4 my-4">
-          <div class="card shadow">
-            <img src="assets/img/Moringa-Powder.jpg" alt="Moringa-Powder" class="rounded-top">
-            <div class="card-body">
-              <h4 class="fw-bold mb-3" id="product-4">Moringa Powder</h4>
-              <p id="product-5">Premium moringa powder, rich in nutrients and antioxidants, perfect for health supplements and culinary uses.</p>
-              <button type="button" class="btn btn-success float-end shadow" data-bs-toggle="modal" data-bs-target="#MoringaPowder" id="product-6">Details <i class="bi bi-caret-right-fill"></i></button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-
-        </div>
-      </div>
+      <!-- Product-List -->
+      <div class="row d-flex justify-content-center mt-3" data-aos="fade-up" data-aos-duration="1000" id="product-list"></div>
     </div>
     <div class="container text-center" >
-      <h1 class="fw-bold" data-aos="fade-up" data-aos-duration="1000" id="product-7">Download Our Catalog</h1>
-      <p data-aos="fade-up" data-aos-duration="1000" id="product-8"><i>Get our latest Catalog in PDF format for more information about IndoLeaves.</i></p>
-      <a href="assets/Product Catalog Indoleaves.pdf" class="btn btn-catalog fw-bold shadow" data-aos="fade-up" data-aos-duration="1000" id="product-9"><i class="bi bi-file-earmark-arrow-down-fill"></i> Download Catalog</a>
+      <h1 class="fw-bold" data-aos="fade-up" data-aos-duration="1000" id="product-3">Download Our Catalog</h1>
+      <p data-aos="fade-up" data-aos-duration="1000" id="product-4"><i>Get our latest Catalog in PDF format for more information about IndoLeaves.</i></p>
+      <a href="assets/Product Catalog Indoleaves.pdf" class="btn btn-catalog fw-bold shadow" data-aos="fade-up" data-aos-duration="1000" id="product-5"><i class="bi bi-file-earmark-arrow-down-fill"></i> Download Catalog</a>
     </div>
   </section>
   <!-- Product End -->
@@ -184,7 +167,7 @@
      <div class="container text-center text-white">
        <h1 class="fw-bold" data-aos="fade-up" data-aos-duration="1000" id="contact-1">Contact Us</h1>
        <p data-aos="fade-up" data-aos-duration="1000" id="contact-2">For Dealing To Achieve the Deal.</p>
-       <form onsubmit="return sendMessage(event)">
+       <form id="messageForm">
          <div class="row d-flex align-items-center">
            <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
              <input type="text" class="form-control my-3 form-contact" id="contact-3" placeholder="Your Name *" required>
@@ -245,43 +228,10 @@
   <!-- Footer End -->
 
 <!-- Modal MaringaPowder -->
- <section class="modals"></section>
-<div class="modal fade" id="MoringaPowder" tabindex="-1" aria-labelledby="MoringaPowder" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5 fw-bold modal-1" id="exampleModalLabel">Maringa Powder</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p class="text-center"><i id="modal-2">Premium moringa powder, rich in nutrients and antioxidants, perfect for health supplements and culinary uses.</i></p>
-        <div class="text-center">
-          <img src="assets/img/Moringa-Powder.jpg" alt="Moringa-Powder" class="img-items rounded shadow">
-        </div>
-        <p class="text-center mt-3" id="modal-3">Premium moringa powder, finely milled from selected Moringa oleifera leaves. Packed with nutrients and antioxidants, ideal for health supplements, smoothies, and culinary applications.</p>
-        <h4 class="fw-semibold" id="modal-4">Product Details:</h4>
-        <ul id="modal-5">
-          <li><b>Form:</b> Fine powder from dried moringa leaves</li>
-          <li><b>Mesh Size:</b> 60-80 mesh (customizable)</li>
-          <li><b>Moisture Content:</b> ≤ 7%</li>
-          <li><b>Color:</b> Bright green (natural, non-bleached)</li>
-          <li><b>Odor & Taste:</b> Mildly earthy and characteristic herbal aroma</li>
-          <li><b>Packaging:</b> 25 kg vacuum-sealed food-grade bags (or as requested)</li>
-          <li><b>Usage:</b> Health supplements, tea blends, herbal capsules, cosmetics</li>
-          <li><b>Shelf Life:</b> 18-24 months (stored in cool, dry conditions)</li>
-          <li><b>Availability:</b> Consistent monthly supply from Java, Indonesia</li>
-        </ul>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" id="modal-6">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
+<section id="modals-container"></section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="assets/script.js"></script>
+<script type="module" src="assets/script.js"></script>
 </body>
 </html>
