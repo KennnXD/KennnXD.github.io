@@ -81,7 +81,7 @@ function createProductCard(products) {
                     <div class="card-body">
                     <h4 class="fw-bold mb-3">${product.nama}</h4>
                     <p>${product.deskripsi}</p>
-                    <button type="button" class="btn btn-success float-end shadow" data-bs-toggle="modal" data-bs-target="#${product.id}">Details <i class="bi bi-caret-right-fill"></i></button>
+                    <button type="button" class="btn btn-success float-end shadow mt-2" data-bs-toggle="modal" data-bs-target="#${product.id}">Details <i class="bi bi-caret-right-fill"></i></button>
                     </div>
                 </div>
             </div>
