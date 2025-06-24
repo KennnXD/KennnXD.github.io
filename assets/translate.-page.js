@@ -91,15 +91,14 @@ function translateLanguage(lang) {
         about6.innerHTML = 'Export Documentation';
         about7.innerHTML = 'Our Leaves Journey';
         about8.innerHTML = 'Discover how fresh Indonesian leaves are <br> sourced and handled before they reach global markets.';
-        about9.innerHTML = 'Our Production';
-        about10.innerHTML = `Indonesia is home to rich biodiversity and powerful superfoods—among them, Moringa (Moringa oleifera) stands out for its nutritional value and growing global demand. <br><br>
-                            IndoLeaves is a dedicated supplier of premium moringa powder sourced from trusted local farmers in East Java, Indonesia. While we are a new player in global trade, our approach is fresh, transparent, and highly responsive to international quality expectations. <br><br>
-                            We work closely with our partners to ensure:`;
+        about9.innerHTML = 'Our Product';
+        about10.innerHTML = `IndoLeaves is a trading company that specializes in the supply of high-quality products sourced from   trusted local suppliers in Indonesia. <br><br> We offer a range of premium powders including moringa powder, cinnamon powder, ginger powder, red ginger, white ginger, and cinnamon. While we are a growing player in global trade, our approach is fresh, transparent, and highly responsive to international quality expectations.<br><br>
+        We collaborate closely with our partners to ensure:`;
         about11.innerHTML = `<li>Ethical and sustainable harvesting</li>
                             <li>Natural sun-drying and fine milling</li>
                             <li>Food-grade packaging</li>
                             <li>Export-compliant documentation and logistics</li>`;
-        about12.innerHTML = 'Our mission is simple: <b><i>Deliver clean, consistent, and reliable moringa powder for your health and wellness needs.</i></b>';
+        about12.innerHTML = 'Our mission is clear: <b><i>To deliver clean, consistent, and reliable products for your health and wellness needs.</i></b>';
 
         serviceStart1.innerHTML = 'Our Services';
         serviceStart2.innerHTML = 'There are many leaves supplier, why you should choose IndoLeaves?';
@@ -165,15 +164,15 @@ function translateLanguage(lang) {
         about6.innerHTML = 'Dokumentasi Ekspor';
         about7.innerHTML = 'Perjalanan Daun Kami';
         about8.innerHTML = 'Temukan bagaimana daun Indonesia yang segar <br> dipanen dan ditangani sebelum sampai ke pasar global.';
-        about9.innerHTML = 'Produksi Kami';
-        about10.innerHTML = `Indonesia adalah rumah bagi keanekaragaman hayati dan superfood yang kaya — salah satunya adalah Kelor (Moringa oleifera), dikenal akan nilai gizinya dan permintaan global yang meningkat. <br><br>
-                            IndoLeaves adalah pemasok khusus bubuk kelor premium yang berasal dari petani lokal terpercaya di Jawa Timur, Indonesia. Meskipun kami pemain baru dalam perdagangan global, pendekatan kami segar, transparan, dan sangat sesuai dengan standar kualitas internasional. <br><br>
-                            Kami bekerja erat dengan mitra kami untuk memastikan:`;
+        about9.innerHTML = 'Produk Kami';
+        about10.innerHTML = `IndoLeaves adalah perusahaan dagang yang berspesialisasi dalam penyediaan produk berkualitas tinggi yang bersumber dari pemasok lokal terpercaya di Indonesia.<br><br>
+        Kami menawarkan berbagai bubuk premium termasuk bubuk kelor, bubuk kayu manis, bubuk jahe, jahe merah, jahe putih, dan kayu manis. Meskipun kami adalah pemain yang sedang berkembang dalam perdagangan global, pendekatan kami segar, transparan, dan sangat responsif terhadap ekspektasi kualitas internasional.<br><br>
+        Kami bekerja sama secara erat dengan mitra kami untuk memastikan:`;
         about11.innerHTML = `<li>Pemanenan yang etis dan berkelanjutan</li>
                             <li>Pengeringan alami dan penggilingan halus</li>
                             <li>Kemasan dengan standar makanan</li>
                             <li>Dokumentasi dan logistik sesuai ekspor</li>`;
-        about12.innerHTML = 'Misi kami sederhana: <b><i>Menghadirkan bubuk kelor yang bersih, konsisten, dan terpercaya untuk kebutuhan kesehatan dan kebugaran Anda.</i></b>';
+        about12.innerHTML = `Misi kami jelas: <b><i>Menyediakan produk yang bersih, konsisten, dan andal untuk kebutuhan kesehatan dan kebugaran Anda.</i></b>`;
 
         serviceStart1.innerHTML = 'Layanan Kami';
         serviceStart2.innerHTML = 'Banyak pemasok daun di luar sana, mengapa Anda harus memilih IndoLeaves?';
@@ -239,16 +238,15 @@ function translateLanguage(lang) {
         about6.innerHTML = 'وثائق التصدير';
         about7.innerHTML = 'رحلة أوراقنا';
         about8.innerHTML = 'اكتشف كيف يتم جمع الأوراق الإندونيسية الطازجة <br> ومعالجتها قبل وصولها إلى الأسواق العالمية.';
-        about9.innerHTML = 'إنتاجنا';
-        about10.innerHTML = `تعد إندونيسيا موطنًا لتنوع بيولوجي غني وأطعمة فائقة القيمة — من بينها نبات المورينجا (Moringa oleifera) الذي يتميز بقيمته الغذائية والطلب المتزايد عليه عالميًا. <br><br>
-                    IndoLeaves هو مورد مخصص لمسحوق المورينجا الفاخر من مزارعين محليين موثوقين في جاوة الشرقية، إندونيسيا. رغم أننا لاعب جديد في التجارة العالمية، إلا أن نهجنا حديث وشفاف ويتوافق مع معايير الجودة الدولية. <br><br>
-                    نحن نعمل عن كثب مع شركائنا لضمان:`;
+        about9.innerHTML = 'منتجاتنا1';
+        about10.innerHTML = `IndoLeaves هي شركة تجارية متخصصة في توريد المنتجات عالية الجودة التي يتم الحصول عليها من الموردين المحليين الموثوقين في إندونيسيا.<br><br>
+        نحن نقدم مجموعة من المساحيق الممتازة بما في ذلك مسحوق المورينجا، مسحوق القرفة، مسحوق الزنجبيل، الزنجبيل الأحمر، الزنجبيل الأبيض، والقرفة. على الرغم من أننا لاعب ناشئ في التجارة العالمية، فإن نهجنا يتميز بالحداثة والشفافية والاستجابة العالية لمتطلبات الجودة الدولية.<br><br>
+        نحن نتعاون عن كثب مع شركائنا لضمان:`;
         about11.innerHTML = `<li>حصاد أخلاقي ومستدام</li>
                      <li>تجفيف طبيعي وطحن دقيق</li>
                      <li>تغليف بدرجة غذائية</li>
                      <li>توثيق ولوجستيات مطابقة للتصدير</li>`;
-        about12.innerHTML = 'مهمتنا بسيطة: <b><i>تقديم مسحوق مورينجا نظيف ومتسق وموثوق لتلبية احتياجاتكم الصحية والبدنية.</i></b>';
-
+        about12.innerHTML = `مهمتنا واضحة: <b><i>تقديم منتجات نظيفة ومتسقة وموثوقة لتلبية احتياجات صحتك وعافيتك.</i></b>`;
         serviceStart1.innerHTML = 'خدماتنا';
         serviceStart2.innerHTML = 'يوجد العديد من موردي الأوراق، لماذا يجب عليك اختيار IndoLeaves؟';
         serviceStart3.innerHTML = 'مراقبة الجودة';
@@ -313,15 +311,15 @@ function translateLanguage(lang) {
         about6.innerHTML = '出口文件';
         about7.innerHTML = '我们的叶子之旅';
         about8.innerHTML = '了解新鲜印尼树叶是如何 <br> 被采集和处理，然后进入全球市场的。';
-        about9.innerHTML = '我们的生产';
-        about10.innerHTML = `印度尼西亚拥有丰富的生物多样性和强大的超级食品——其中辣木（Moringa oleifera）因其营养价值和日益增长的全球需求而脱颖而出。<br><br>
-                    IndoLeaves 是一家专注于提供优质辣木粉的供应商，原料来自印度尼西亚东爪哇值得信赖的本地农民。虽然我们是国际贸易的新成员，但我们的方法新颖、透明，并积极响应国际质量标准。<br><br>
-                    我们与合作伙伴密切合作，确保：`;
+        about9.innerHTML = '我们的产品';
+        about10.innerHTML = `IndoLeaves 是一家贸易公司，专注于从印尼值得信赖的本地供应商采购高质量产品。<br><br>
+        我们提供一系列优质粉末产品，包括辣木粉、肉桂粉、生姜粉、红姜、白姜和肉桂。虽然我们在全球贸易中是一个新兴企业，但我们采取的是新颖、透明且高度响应国际质量标准的方法。<br><br>
+        我们与合作伙伴紧密合作，以确保：`;
         about11.innerHTML = `<li>符合道德和可持续性的采收方式</li>
                      <li>自然阳光干燥与精细研磨</li>
                      <li>食品级包装</li>
                      <li>符合出口要求的文件和物流</li>`;
-        about12.innerHTML = '我们的使命很简单：<b><i>提供干净、一致且可靠的辣木粉，满足您的健康和保健需求。</i></b>';
+        about12.innerHTML = '我们的使命很明确：<b><i>为您的健康与福祉需求提供干净、一致且可靠的产品。</i></b>';
 
         serviceStart1.innerHTML = '我们的服务';
         serviceStart2.innerHTML = '有很多叶类供应商，为什么选择 IndoLeaves？';
