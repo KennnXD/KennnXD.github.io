@@ -27,12 +27,16 @@ const productDataId = [
         "alt_gambar": "Jahe-Merah-Kering",
         "deskripsi": "Jahe merah kering premium, dikeringkan secara alami dari akar jahe merah pilihan. Tinggi kandungan gingerol dan antioksidan, cocok untuk teh herbal, obat-obatan, dan pengolahan bubuk.",
         "form": ["Bentuk", "Irisan atau rimpang utuh kering"],
+        "mesh": null,
         "warna": ["Warna", "Cokelat kemerahan"],
         "moisture": ["Kadar Air", "≤10%"],
         "odor": ["Aroma & Rasa", "Kuat, pedas, dan aromatik"],
         "packaging": ["Kemasan", "25 kg kantong vakum PE atau karung PP tenun"],
         "usage": ["Penggunaan", "Obat herbal, campuran teh, pengolahan bubuk"],
         "shelfLife": ["Masa Simpan", "6–12 bulan"],
+        "availability": null,
+        "essentialOil": null,
+        "additives": null,
         "certification": ["Sertifikasi", "Tidak bersertifikasi Organik atau Halal. Phytosanitary & COO tersedia sesuai permintaan"]
     },
     {
@@ -50,6 +54,7 @@ const productDataId = [
         "packaging": ["Kemasan", "Kemasan 100g-1kg / kantong kraft berlapis PE 25kg"],
         "usage": ["Penggunaan", "Minuman herbal, suplemen, makanan fungsional"],
         "shelfLife": ["Masa Simpan", "12-24 bulan"],
+        "availability": null,
         "essentialOil": ["Kandungan Minyak Atsiri", "≥1.5%"],
         "additives": ["Aditif", "Tidak ada (100% jahe merah murni)"],
         "certification": ["Sertifikasi", "Tidak bersertifikasi Organik atau Halal. COA & Phytosanitary tersedia"]
@@ -62,12 +67,16 @@ const productDataId = [
         "alt_gambar": "Jahe-Putih-Kering",
         "deskripsi": "Jahe putih kering yang dijemur, terbuat dari akar jahe Gajah matang. Bersih, aromatik ringan, dan tahan lama — cocok untuk industri makanan, campuran teh, dan pembuatan rempah.",
         "form": ["Bentuk", "Irisan atau rimpang utuh kering"],
+        "mesh": null,
         "warna": ["Warna", "Kuning muda hingga krem"],
         "moisture": ["Kadar Air", "≤10%"],
         "odor": ["Aroma & Rasa", "Ringan dan hangat"],
         "packaging": ["Kemasan", "25 kg kantong vakum PE atau karung PP tenun"],
         "usage": ["Penggunaan", "Bahan kuliner, teh, produksi bubuk"],
         "shelfLife": ["Masa Simpan", "6-12 bulan"],
+        "availability": null,
+        "essentialOil": null,
+        "additives": null,
         "certification": ["Sertifikasi", "Tidak bersertifikasi Organik atau Halal. Phytosanitary & COO tersedia sesuai permintaan"]
     },
     {
@@ -85,6 +94,7 @@ const productDataId = [
         "packaging": ["Kemasan", "Kemasan 100g-1kg / kantong kraft berlapis PE 25kg"],
         "usage": ["Penggunaan", "Bumbu makanan, minuman, kue, campuran rempah"],
         "shelfLife": ["Masa Simpan", "12-24 bulan"],
+        "availability": null,
         "essentialOil": ["Kandungan Minyak Atsiri", "1.0%-1.3%"],
         "additives": ["Aditif", "Tidak ada (100% jahe putih murni)"],
         "certification": ["Sertifikasi", "Tidak bersertifikasi Organik atau Halal. COA & Phytosanitary tersedia"]

@@ -27,12 +27,16 @@ const productDataChn = [
         "alt_gambar": "干红姜",
         "deskripsi": "优质干红姜，由精选红姜根自然晒干而成。富含姜辣素和抗氧化剂，适合用于草药茶、药品和粉末加工。",
         "form": ["形态", "切片或整块干燥根茎"],
+        "mesh": null,
         "warna": ["颜色", "红棕色"],
         "moisture": ["水分含量", "≤10%"],
         "odor": ["气味和味道", "浓烈、辛辣、芳香"],
         "packaging": ["包装", "25公斤PE真空袋或PP编织袋"],
         "usage": ["用途", "草药、茶混合、粉末加工"],
         "shelfLife": ["保质期", "6–12个月"],
+        "availability": null,
+        "essentialOil": null,
+        "additives": null,
         "certification": ["认证", "非有机或清真认证。植物检疫和原产地证书可根据要求提供"]
     },
     {
@@ -50,6 +54,7 @@ const productDataChn = [
         "packaging": ["包装", "100克-1公斤小袋 / 25公斤PE内衬牛皮纸袋"],
         "usage": ["用途", "草药饮料、补充剂、功能性食品"],
         "shelfLife": ["保质期", "12-24个月"],
+        "availability": null,
         "essentialOil": ["精油含量", "≥1.5%"],
         "additives": ["添加剂", "无（100%纯红姜）"],
         "certification": ["认证", "非有机或清真认证。分析证书和植物检疫证书可提供"]
@@ -62,12 +67,16 @@ const productDataChn = [
         "alt_gambar": "干白姜",
         "deskripsi": "晒干的白姜，由成熟的象姜根制成。干净、香气温和且持久，适合食品工业、茶混合和香料制造。",
         "form": ["形态", "切片或整块干燥根茎"],
+        "mesh": null,
         "warna": ["颜色", "浅黄色至米色"],
         "moisture": ["水分含量", "≤10%"],
         "odor": ["气味和味道", "温和且温暖"],
         "packaging": ["包装", "25公斤PE真空袋或PP编织袋"],
         "usage": ["用途", "烹饪原料、茶、粉末生产"],
         "shelfLife": ["保质期", "6-12个月"],
+        "availability": null,
+        "essentialOil": null,
+        "additives": null,
         "certification": ["认证", "非有机或清真认证。植物检疫和原产地证书可根据要求提供"]
     },
     {
@@ -85,6 +94,7 @@ const productDataChn = [
         "packaging": ["包装", "100克-1公斤小袋 / 25公斤PE内衬牛皮纸袋"],
         "usage": ["用途", "食品调味、饮料、烘焙、香料混合"],
         "shelfLife": ["保质期", "12-24个月"],
+        "availability": null,
         "essentialOil": ["精油含量", "1.0%-1.3%"],
         "additives": ["添加剂", "无（100%纯白姜）"],
         "certification": ["认证", "非有机或清真认证。分析证书和植物检疫证书可提供"]
