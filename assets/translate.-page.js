@@ -123,7 +123,7 @@ function translateLanguage(lang) {
         contact6.placeholder = 'Your Message';
         contact7.innerHTML = 'Send Message';
 
-        footer0.innerHTML = 'Shop';
+        footer0.innerHTML = 'Address';
         footer1.innerHTML = `<b>Tower Bella Unit 3215</b> <br>
                     Jl. Raya Laguna Kejawan Putih Mutiara No. 2, Pakuwon Town Square Commercial Complex, Surabaya`;
         footer2.innerHTML = 'Learn';
@@ -197,7 +197,7 @@ function translateLanguage(lang) {
         contact6.placeholder = 'Pesan Anda';
         contact7.innerHTML = 'Kirim Pesan';
 
-        footer0.innerHTML = 'Belanja';
+        footer0.innerHTML = 'Alamat';
         footer1.innerHTML = `<b>Tower Bella Unit 3215</b> <br>
                     Jl. Raya Laguna Kejawan Putih Mutiara No. 2 Kompleks Ruko Pakuwon Town Square, Surabaya`;
         footer2.innerHTML = 'Pelajari';
@@ -270,7 +270,7 @@ function translateLanguage(lang) {
         contact6.placeholder = 'رسالتك';
         contact7.innerHTML = 'إرسال الرسالة';
 
-        footer0.innerHTML = 'تسوق';
+        footer0.innerHTML = 'العنوان';
         footer1.innerHTML = `<b>برج بيلا الوحدة 3215</b><br>
 رقم 2، شارع لاجونا كيجاوان بوتيه موتيارا، مجمع محلات باكوون تاون سكوير، سورابايا`;      
         footer2.innerHTML = 'تعلم';
@@ -344,7 +344,7 @@ function translateLanguage(lang) {
         contact6.placeholder = '您的留言';
         contact7.innerHTML = '发送消息';
 
-        footer0.innerHTML = '购物';
+        footer0.innerHTML = '地址';
         footer1.innerHTML = `<b>贝拉塔 3215 单元</b><br>
                         印度尼西亚泗水市帕库翁城市广场商铺区，拉古娜克贾万普蒂穆蒂亚拉路2号`;
         footer2.innerHTML = '了解';
