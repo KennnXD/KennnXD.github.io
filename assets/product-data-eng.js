@@ -98,6 +98,48 @@ const productDataEng = [
         "essentialOil": ["Essential Oil Content", "1.0%-1.3%"],
         "additives": ["Additives", "None (100% pure white ginger)"],
         "certification": ["Certification", "Not Organic or Halal certified. COA & Phytosanitary available"]
+    },
+    {
+        id: "DriedCinnamonStick",
+        prod_detail: "Product Details",
+        nama: "Dried Cinnamon Stick",
+        gambar: "assets/img/cinnamonStick.png",
+        alt_gambar: "Dried-Cinnamon-Stick",
+        deskripsi: "Premium sun-dried cinnamon quills, sourced from mature cinnamon bark with high cinnamaldehyde content. Ideal for tea blends, food seasoning, and spice production.",
+        form: ["Form", "Rolled bark (Quill), whole or cut"],
+        warna: ["Color", "Reddish brown to dark brown"],
+        moisture: ["Moisture Content", "≤12%"],
+        odor: ["Aroma", "Sweet, woody, and warm"],
+        texture: ["Texture", "Dry, clean, free of mold"],
+        impurities: ["Impurities", "Free from foreign materials (dust, stones, insects)"],
+        grade: ["Grade", "C4, C5, M4, M5 (based on buyer request)"],
+        shelfLife: ["Shelf Life", "12-24 months"],
+        packaging: ["Packaging", "25 kg PP woven sack / carton box"],
+        usage: ["Usage", "Herbal tea, bakery, food industry, powder processing"],
+        certification: ["Certification", "COA, Phytosanitary & COO available. Not Organic/Halal certified."],
+        availability: null,
+        essentialOil: null,
+        additives: null
+    },
+    {
+        id: "CinnamonPowder",
+        prod_detail: "Product Details",
+        nama: "Cinnamon Powder",
+        gambar: "assets/img/cinnamonPowder.jpg",
+        alt_gambar: "Cinnamon-Powder",
+        deskripsi: "Finely ground cinnamon powder, rich in cinnamaldehyde, with sweet aroma and warm spice notes. Best for herbal drinks, baking, seasoning, and nutraceuticals.",
+        mesh: ["Mesh Size", "80-100 mesh"],
+        warna: ["Color", "Light to dark reddish brown"],
+        odor: ["Aroma", "Sweet, pungent, and intense"],
+        moisture: ["Moisture Content", "≤10%"],
+        essentialOil: ["Essential Oil Content", "≥2%"],
+        additives: ["Additives", "None (100% pure cinnamon bark)"],
+        shelfLife: ["Shelf Life", "12-24 months"],
+        packaging: ["Packaging", "100g-1kg pouch / 25kg kraft paper bag (PE-lined)"],
+        usage: ["Usage", "Bakery, health drinks, spice mixes, supplements"],
+        certification: ["Certification", "COA & Phytosanitary available. Not Organic/Halal certified."],
+        availability: null,
+        form: null
     }
 ]
 

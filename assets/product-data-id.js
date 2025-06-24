@@ -98,6 +98,48 @@ const productDataId = [
         "essentialOil": ["Kandungan Minyak Atsiri", "1.0%-1.3%"],
         "additives": ["Aditif", "Tidak ada (100% jahe putih murni)"],
         "certification": ["Sertifikasi", "Tidak bersertifikasi Organik atau Halal. COA & Phytosanitary tersedia"]
+    },
+    {
+        id: "DriedCinnamonStick",
+        prod_detail: "Detail Produk",
+        nama: "Kayu Manis Kering",
+        gambar: "assets/img/cinnamonStick.png",
+        alt_gambar: "Kayu-Manis-Kering",
+        deskripsi: "Kayu manis quill kering premium, berasal dari kulit kayu manis matang dengan kandungan cinnamaldehyde tinggi. Ideal untuk campuran teh, bumbu makanan, dan produksi rempah.",
+        form: ["Bentuk", "Kulit kayu digulung (Quill), utuh atau potong"],
+        warna: ["Warna", "Coklat kemerahan hingga coklat tua"],
+        moisture: ["Kandungan Air", "≤12%"],
+        odor: ["Aroma", "Manis, kayu, dan hangat"],
+        texture: ["Tekstur", "Kering, bersih, bebas jamur"],
+        impurities: ["Kotoran", "Bebas dari bahan asing (debu, batu, serangga)"],
+        grade: ["Grade", "C4, C5, M4, M5 (berdasarkan permintaan pembeli)"],
+        shelfLife: ["Masa Simpan", "12-24 bulan"],
+        packaging: ["Kemasan", "Karung PP 25 kg / kotak karton"],
+        usage: ["Penggunaan", "Teh herbal, bakery, industri makanan, pengolahan bubuk"],
+        certification: ["Sertifikasi", "COA, Phytosanitary & COO tersedia. Tidak bersertifikat Organik/Halal."],
+        availability: null,
+        essentialOil: null,
+        additives: null
+    }, 
+    {
+        id: "CinnamonPowder",
+        prod_detail: "Detail Produk",
+        nama: "Bubuk Kayu Manis",
+        gambar: "assets/img/cinnamonPowder.jpg",
+        alt_gambar: "Bubuk-Kayu-Manis",
+        deskripsi: "Bubuk kayu manis halus, kaya akan cinnamaldehyde, dengan aroma manis dan catatan rempah hangat. Terbaik untuk minuman herbal, baking, bumbu, dan nutraceuticals.",
+        mesh: ["Ukuran Mesh", "80-100 mesh"],
+        warna: ["Warna", "Coklat kemerahan muda hingga tua"],
+        odor: ["Aroma", "Manis, tajam, dan intens"],
+        moisture: ["Kandungan Air", "≤10%"],
+        essentialOil: ["Kandungan Minyak Atsiri", "≥2%"],
+        additives: ["Bahan Tambahan", "Tidak ada (100% kulit kayu manis murni)"],
+        shelfLife: ["Masa Simpan", "12-24 bulan"],
+        packaging: ["Kemasan", "Kemasan 100g-1kg / kantong kertas kraft 25kg (dilapisi PE)"],
+        usage: ["Penggunaan", "Roti, minuman kesehatan, campuran rempah, suplemen"],
+        certification: ["Sertifikasi", "COA & Phytosanitary tersedia. Tidak bersertifikat Organik/Halal."],
+        availability: null,
+        form: null
     }
 ]
 

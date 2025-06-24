@@ -98,6 +98,48 @@ const productDataChn = [
         "essentialOil": ["精油含量", "1.0%-1.3%"],
         "additives": ["添加剂", "无（100%纯白姜）"],
         "certification": ["认证", "非有机或清真认证。分析证书和植物检疫证书可提供"]
+    },
+    {
+        id: "DriedCinnamonStick",
+        prod_detail: "产品详情",
+        nama: "干肉桂棒",
+        gambar: "assets/img/cinnamonStick.png",
+        alt_gambar: "干肉桂棒",
+        deskripsi: "优质晒干肉桂卷筒，源自成熟肉桂树皮，肉桂醛含量高。非常适合茶混合、食品调味和香料生产。",
+        form: ["形式", "卷曲的树皮（卷筒），完整或切割"],
+        warna: ["颜色", "红棕色至深棕色"],
+        moisture: ["水分含量", "≤12%"],
+        odor: ["香气", "甜美、木质和温暖"],
+        texture: ["质地", "干燥、干净、无霉"],
+        impurities: ["杂质", "无外来物质（灰尘、石头、昆虫）"],
+        grade: ["等级", "C4、C5、M4、M5（根据买家要求）"],
+        shelfLife: ["保质期", "12-24 个月"],
+        packaging: ["包装", "25公斤PP编织袋/纸箱"],
+        usage: ["用途", "草药茶、烘焙、食品工业、粉末加工"],
+        certification: ["认证", "提供COA、植物检疫和原产地证书。未经有机/清真认证。"],
+        availability: null,
+        essentialOil: null,
+        additives: null
+    },
+    {
+        id: "CinnamonPowder",
+        prod_detail: "产品详情",
+        nama: "肉桂粉",
+        gambar: "assets/img/cinnamonPowder.jpg",
+        alt_gambar: "肉桂粉",
+        deskripsi: "精细研磨的肉桂粉，富含肉桂醛，具有甜美的香气和温暖的香料味。最适合用于草药饮料、烘焙、调味和营养品。",
+        mesh: ["目数", "80-100目"],
+        warna: ["颜色", "浅红棕色至深红棕色"],
+        odor: ["香气", "甜美、辛辣且浓郁"],
+        moisture: ["水分含量", "≤10%"],
+        essentialOil: ["精油含量", "≥2%"],
+        additives: ["添加剂", "无（100%纯肉桂树皮）"],
+        shelfLife: ["保质期", "12-24个月"],
+        packaging: ["包装", "100克-1公斤小袋 / 25公斤牛皮纸袋（PE内衬）"],
+        usage: ["用途", "烘焙、健康饮料、香料混合、补充剂"],
+        certification: ["认证", "提供COA和植物检疫证书。未经有机/清真认证。"],
+        availability: null,
+        form: null
     }
 ]
 
