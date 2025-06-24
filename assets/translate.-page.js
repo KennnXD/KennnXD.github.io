@@ -125,7 +125,8 @@ function translateLanguage(lang) {
         contact7.innerHTML = 'Send Message';
 
         footer0.innerHTML = 'Shop';
-        footer1.innerHTML = 'Moringa Powder';
+        footer1.innerHTML = `<b>Tower Bella Unit 3215</b> <br>
+                    Jl. Raya Laguna Kejawan Putih Mutiara No. 2, Pakuwon Town Square Commercial Complex, Surabaya`;
         footer2.innerHTML = 'Learn';
         footer3.innerHTML = 'Home';
         footer4.innerHTML = 'About Us';
@@ -134,21 +135,6 @@ function translateLanguage(lang) {
         footer7.innerHTML = 'Contact';
         footer8.innerHTML = 'Follow Us';
         footer9.innerHTML = 'Copyright &copy; 2025 indoleaves.com';
-
-        // modal1.innerHTML = 'Moringa Powder';
-        // modal2.innerHTML = 'Moringa powder is a nutrient-dense superfood made from the leaves of the Moringa oleifera tree, known for its high levels of vitamins, minerals, and antioxidants.';
-        // modal3.innerHTML = 'Benefits of Moringa Powder';
-        // modal4.innerHTML = 'Product Details:';
-        // modal5.innerHTML = `<li><b>Form:</b> Fine powder from dried moringa leaves</li>
-        //                     <li><b>Mesh Size:</b> 60-80 mesh (customizable)</li>
-        //                     <li><b>Moisture Content:</b> ≤ 7%</li>
-        //                     <li><b>Color:</b> Bright green (natural, non-bleached)</li>
-        //                     <li><b>Odor & Taste:</b> Mildly earthy and characteristic herbal aroma</li>
-        //                     <li><b>Packaging:</b> 25 kg vacuum-sealed food-grade bags (or as requested)</li>
-        //                     <li><b>Usage:</b> Health supplements, tea blends, herbal capsules, cosmetics</li>
-        //                     <li><b>Shelf Life:</b> 18-24 months (stored in cool, dry conditions)</li>
-        //                     <li><b>Availability:</b> Consistent monthly supply from Java, Indonesia</li>`
-        // modal6.innerHTML = 'Close';
 
     } 
 
@@ -213,7 +199,8 @@ function translateLanguage(lang) {
         contact7.innerHTML = 'Kirim Pesan';
 
         footer0.innerHTML = 'Belanja';
-        footer1.innerHTML = 'Bubuk Daun Kelor';
+        footer1.innerHTML = `<b>Tower Bella Unit 3215</b> <br>
+                    Jl. Raya Laguna Kejawan Putih Mutiara No. 2 Kompleks Ruko Pakuwon Town Square, Surabaya`;
         footer2.innerHTML = 'Pelajari';
         footer3.innerHTML = 'Beranda';
         footer4.innerHTML = 'Tentang Kami';
@@ -222,21 +209,6 @@ function translateLanguage(lang) {
         footer7.innerHTML = 'Kontak';
         footer8.innerHTML = 'Ikuti Kami';
         footer9.innerHTML = 'Hak Cipta &copy; 2025 indoleaves.com';
-
-        // modal1.innerHTML = 'Bubuk Daun Kelor';
-        // modal2.innerHTML = 'Bubuk kelor adalah superfood kaya nutrisi yang terbuat dari daun pohon Moringa oleifera, dikenal karena kandungan vitamin, mineral, dan antioksidannya yang tinggi.';
-        // modal3.innerHTML = 'Manfaat Bubuk Daun Kelor';
-        // modal4.innerHTML = 'Detail Produk:';
-        // modal5.innerHTML = `<li><b>Bentuk:</b> Bubuk halus dari daun kelor kering</li>
-        //                     <li><b>Ukuran Mesh:</b> 60-80 mesh (dapat disesuaikan)</li>
-        //                     <li><b>Kadar Air:</b> ≤ 7%</li>
-        //                     <li><b>Warna:</b> Hijau cerah (alami, tidak diputihkan)</li>
-        //                     <li><b>Aroma & Rasa:</b> Sedikit earthy dengan aroma herbal khas</li>
-        //                     <li><b>Kemasan:</b> Karung food-grade 25 kg vakum (atau sesuai permintaan)</li>
-        //                     <li><b>Penggunaan:</b> Suplemen kesehatan, campuran teh, kapsul herbal, kosmetik</li>
-        //                     <li><b>Masa Simpan:</b> 18-24 bulan (disimpan di tempat sejuk dan kering)</li>
-        //                     <li><b>Ketersediaan:</b> Pasokan bulanan stabil dari Jawa, Indonesia</li>`;
-        // modal6.innerHTML = 'Tutup';
 
     } 
     
@@ -301,7 +273,8 @@ function translateLanguage(lang) {
         contact7.innerHTML = 'إرسال الرسالة';
 
         footer0.innerHTML = 'تسوق';
-        footer1.innerHTML = 'مسحوق المورينجا';
+        footer1.innerHTML = `<b>برج بيلا الوحدة 3215</b><br>
+رقم 2، شارع لاجونا كيجاوان بوتيه موتيارا، مجمع محلات باكوون تاون سكوير، سورابايا`;      
         footer2.innerHTML = 'تعلم';
         footer3.innerHTML = 'الرئيسية';
         footer4.innerHTML = 'معلومات عنا';
@@ -310,21 +283,6 @@ function translateLanguage(lang) {
         footer7.innerHTML = 'اتصل';
         footer8.innerHTML = 'تابعنا';
         footer9.innerHTML = 'حقوق النشر &copy; 2025 indoleaves.com';
-
-        // modal1.innerHTML = 'مسحوق المورينجا';
-        // modal2.innerHTML = 'مسحوق المورينجا هو غذاء فائق غني بالعناصر الغذائية مصنوع من أوراق شجرة المورينجا، ويُعرف بمستوياته العالية من الفيتامينات والمعادن ومضادات الأكسدة.';
-        // modal3.innerHTML = 'فوائد مسحوق المورينجا';
-        // modal4.innerHTML = 'تفاصيل المنتج:';
-        // modal5.innerHTML = `<li><b>الشكل:</b> مسحوق ناعم من أوراق المورينجا المجففة</li>
-        //                     <li><b>حجم الشبكة:</b> 60-80 شبكة (قابل للتخصيص)</li>
-        //                     <li><b>محتوى الرطوبة:</b> ≤ 7%</li>
-        //                     <li><b>اللون:</b> أخضر زاهي (طبيعي، غير مبيض)</li>
-        //                     <li><b>الرائحة والطعم:</b> رائحة عشبية خفيفة مع طابع ترابي</li>
-        //                     <li><b>التعبئة:</b> أكياس مفرغة من الهواء بوزن 25 كجم مخصصة للأغذية (أو حسب الطلب)</li>
-        //                     <li><b>الاستخدام:</b> مكملات صحية، خلطات شاي، كبسولات عشبية، مستحضرات تجميل</li>
-        //                     <li><b>مدة الصلاحية:</b> 18-24 شهرًا (يُخزن في مكان بارد وجاف)</li>
-        //                     <li><b>التوافر:</b> إمدادات شهرية منتظمة من جزيرة جاوة، إندونيسيا</li>`;
-        // modal6.innerHTML = 'إغلاق';
 
     } 
     
@@ -389,7 +347,8 @@ function translateLanguage(lang) {
         contact7.innerHTML = '发送消息';
 
         footer0.innerHTML = '购物';
-        footer1.innerHTML = '辣木粉';
+        footer1.innerHTML = `<b>贝拉塔 3215 单元</b><br>
+                        印度尼西亚泗水市帕库翁城市广场商铺区，拉古娜克贾万普蒂穆蒂亚拉路2号`;
         footer2.innerHTML = '了解';
         footer3.innerHTML = '首页';
         footer4.innerHTML = '关于我们';
@@ -398,21 +357,6 @@ function translateLanguage(lang) {
         footer7.innerHTML = '联系';
         footer8.innerHTML = '关注我们';
         footer9.innerHTML = '版权 &copy; 2025 indoleaves.com';
-
-        // modal1.innerHTML = '辣木粉';
-        // modal2.innerHTML = '辣木粉是一种营养丰富的超级食品，由辣木树的叶子制成，以其高含量的维生素、矿物质和抗氧化剂而闻名。';
-        // modal3.innerHTML = '辣木粉的功效';
-        // modal4.innerHTML = '产品详情：';
-        // modal5.innerHTML = `<li><b>形式：</b> 由干辣木叶制成的细粉</li>
-        //                     <li><b>目数：</b> 60-80 目（可定制）</li>
-        //                     <li><b>水分含量：</b> ≤ 7%</li>
-        //                     <li><b>颜色：</b> 鲜绿色（天然，未漂白）</li>
-        //                     <li><b>气味与口感：</b> 微微泥土味，具有草本特有香气</li>
-        //                     <li><b>包装：</b> 25 公斤真空食品级包装袋（可按需定制）</li>
-        //                     <li><b>用途：</b> 保健品、茶饮混合物、草本胶囊、化妆品</li>
-        //                     <li><b>保质期：</b> 18-24 个月（存放于阴凉干燥处）</li>
-        //                     <li><b>供应情况：</b> 来自印尼爪哇的稳定月供</li>`;
-        // modal6.innerHTML = '关闭';
 
     }
 }
