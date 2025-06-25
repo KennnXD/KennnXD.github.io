@@ -113,9 +113,23 @@ section#products {
     padding: 1rem;
 }
 
-.card {
+.card-product {
+    height: 100%;
+}
+
+.card-product .card-body {
+    position: relative;
+    flex: 1;
     display: flex;
-    height: 33rem;
+    flex-direction: column;
+    padding: 1.25rem;
+    padding-bottom: 4rem;
+}
+
+.card-product button {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
 }
 
 /* Contact */

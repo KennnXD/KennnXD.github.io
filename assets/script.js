@@ -75,8 +75,8 @@ function createProductCard(products) {
     products.forEach(product => {
         productContainer.innerHTML += `
         
-            <div class="col-md-4 my-4">
-                <div class="card shadow">
+            <div class="col-lg-4 my-4">
+                <div class="card shadow card-product">
                     <img src="${product.gambar}" alt="${product.alt_gambar}" class="rounded-top">
                     <div class="card-body">
                     <h4 class="fw-bold mb-3">${product.nama}</h4>
