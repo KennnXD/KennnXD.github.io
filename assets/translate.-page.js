@@ -78,10 +78,10 @@ function translateLanguage(lang) {
         langArb.innerHTML = 'Arabic';
         langChn.innerHTML = 'Chinese';
 
-        titleStart1.innerHTML = 'Your Reliable Supplier';
-        titleStart2.innerHTML = 'Premium Moringa Powder';
-        titleStart3.innerHTML = 'Exporter From Indonesia';
-        titleStart4.innerHTML = 'Tell Me More';
+        titleStart1.innerHTML = 'Your Reliable Trade Partner';
+        titleStart2.innerHTML = 'Supplying Moringa & Powder';
+        titleStart3.innerHTML = 'From Indonesia To The World';
+        titleStart4.innerHTML = 'Explore Our Product';
 
         about1.innerHTML = 'Export Readiness';
         about2.innerHTML = 'Our current position in the global supply chain';
@@ -151,10 +151,10 @@ function translateLanguage(lang) {
         langArb.innerHTML = 'Arab';
         langChn.innerHTML = 'Cina';
 
-        titleStart1.innerHTML = 'Pemasok Terpercaya Anda';
-        titleStart2.innerHTML = 'Bubuk Daun Kelor Premium';
-        titleStart3.innerHTML = 'Eksportir dari Indonesia';
-        titleStart4.innerHTML = 'Beritahu Saya Lebih Lanjut';
+        titleStart1.innerHTML = 'Mitra Dagang Terpercaya Anda';
+        titleStart2.innerHTML = 'Menyuplai Moringa & Bubuk';
+        titleStart3.innerHTML = 'Dari Indonesia ke Seluruh Dunia';
+        titleStart4.innerHTML = 'Jelajahi Produk Kami';
 
         about1.innerHTML = 'Kesiapan Ekspor';
         about2.innerHTML = 'Posisi kami saat ini dalam rantai pasok global';
@@ -225,10 +225,10 @@ function translateLanguage(lang) {
         langArb.innerHTML = 'اللغة العربية (نشطة)';
         langChn.innerHTML = 'اللغة الصينية';
 
-        titleStart1.innerHTML = 'موردك الموثوق';
-        titleStart2.innerHTML = 'مسحوق المورينجا الفاخر';
-        titleStart3.innerHTML = 'مُصدر من إندونيسيا';
-        titleStart4.innerHTML = 'أخبرني المزيد';
+        titleStart1.innerHTML = 'شريكك التجاري الموثوق';
+        titleStart2.innerHTML = 'توريد المورينغا والمسحوق';
+        titleStart3.innerHTML = 'من إندونيسيا إلى العالم';
+        titleStart4.innerHTML = 'استكشف منتجاتنا';
 
         about1.innerHTML = 'الجاهزية للتصدير';
         about2.innerHTML = 'موقعنا الحالي في سلسلة التوريد العالمية';
@@ -298,10 +298,10 @@ function translateLanguage(lang) {
         langArb.innerHTML = '阿拉伯语';
         langChn.innerHTML = '汉语（启用中）';
 
-        titleStart1.innerHTML = '您值得信赖的供应商';
-        titleStart2.innerHTML = '优质辣木粉';
-        titleStart3.innerHTML = '来自印度尼西亚的出口商';
-        titleStart4.innerHTML = '告诉我更多';
+        titleStart1.innerHTML = '您值得信赖的贸易伙伴';
+        titleStart2.innerHTML = '提供辣木及其粉末';
+        titleStart3.innerHTML = '从印尼走向世界';
+        titleStart4.innerHTML = '探索我们的产品';
 
         about1.innerHTML = '出口准备';
         about2.innerHTML = '我们在全球供应链中的当前地位';
