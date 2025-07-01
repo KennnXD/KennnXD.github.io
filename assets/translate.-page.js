@@ -92,13 +92,16 @@ function translateLanguage(lang) {
         about7.innerHTML = 'Our Leaves Journey';
         about8.innerHTML = 'Discover how fresh Indonesian leaves are <br> sourced and handled before they reach global markets.';
         about9.innerHTML = 'Our Product';
-        about10.innerHTML = `IndoLeaves is a trading company that specializes in the supply of high-quality products sourced from   trusted local suppliers in Indonesia. <br><br> We offer a range of premium powders including moringa powder, cinnamon powder, ginger powder, red ginger, white ginger, and cinnamon. While we are a growing player in global trade, our approach is fresh, transparent, and highly responsive to international quality expectations.<br><br>
-        We collaborate closely with our partners to ensure:`;
+        about10.innerHTML = `IndoLeaves is an exporter that specializes in the supply of high-quality, natural products sourced directly from trusted local suppliers in Indonesia.
+                We offer a range of premium powders, including:
+                Moringa powder, cinnamon powder, ginger powder, red ginger, white ginger, and cinnamon.
+                As an emerging exporter in global trade, our approach is transparent, agile, and committed to meeting international quality standards.
+                We work closely with our partners to ensure:`;
         about11.innerHTML = `<li>Ethical and sustainable harvesting</li>
                             <li>Natural sun-drying and fine milling</li>
                             <li>Food-grade packaging</li>
                             <li>Export-compliant documentation and logistics</li>`;
-        about12.innerHTML = 'Our mission is clear: <b><i>To deliver clean, consistent, and reliable products for your health and wellness needs.</i></b>';
+        about12.innerHTML = 'Our mission is clear: <b><i>To deliver clean, consistent, and reliable products that support your health and wellness needs.</i></b>';
 
         serviceStart1.innerHTML = 'Our Services';
         serviceStart2.innerHTML = 'There are many leaves supplier, why you should choose IndoLeaves?';
@@ -165,14 +168,16 @@ function translateLanguage(lang) {
         about7.innerHTML = 'Perjalanan Daun Kami';
         about8.innerHTML = 'Temukan bagaimana daun Indonesia yang segar <br> dipanen dan ditangani sebelum sampai ke pasar global.';
         about9.innerHTML = 'Produk Kami';
-        about10.innerHTML = `IndoLeaves adalah perusahaan dagang yang berspesialisasi dalam penyediaan produk berkualitas tinggi yang bersumber dari pemasok lokal terpercaya di Indonesia.<br><br>
-        Kami menawarkan berbagai bubuk premium termasuk bubuk kelor, bubuk kayu manis, bubuk jahe, jahe merah, jahe putih, dan kayu manis. Meskipun kami adalah pemain yang sedang berkembang dalam perdagangan global, pendekatan kami segar, transparan, dan sangat responsif terhadap ekspektasi kualitas internasional.<br><br>
-        Kami bekerja sama secara erat dengan mitra kami untuk memastikan:`;
+        about10.innerHTML = `IndoLeaves adalah eksportir yang mengkhususkan diri dalam penyediaan produk alami berkualitas tinggi yang bersumber langsung dari pemasok lokal terpercaya di Indonesia.
+Kami menawarkan berbagai bubuk premium, termasuk:
+Bubuk kelor, bubuk kayu manis, bubuk jahe, jahe merah, jahe putih, dan kayu manis.
+Sebagai eksportir yang sedang berkembang dalam perdagangan global, pendekatan kami transparan, gesit, dan berkomitmen untuk memenuhi standar kualitas internasional.
+Kami bekerja sama secara erat dengan mitra kami untuk memastikan:`;
         about11.innerHTML = `<li>Pemanenan yang etis dan berkelanjutan</li>
                             <li>Pengeringan alami dan penggilingan halus</li>
                             <li>Kemasan dengan standar makanan</li>
                             <li>Dokumentasi dan logistik sesuai ekspor</li>`;
-        about12.innerHTML = `Misi kami jelas: <b><i>Menyediakan produk yang bersih, konsisten, dan andal untuk kebutuhan kesehatan dan kebugaran Anda.</i></b>`;
+        about12.innerHTML = `Misi kami jelas: <b><i>Untuk menghadirkan produk yang bersih, konsisten, dan terpercaya yang mendukung kebutuhan kesehatan dan kebugaran Anda.</i></b>`;
 
         serviceStart1.innerHTML = 'Layanan Kami';
         serviceStart2.innerHTML = 'Banyak pemasok daun di luar sana, mengapa Anda harus memilih IndoLeaves?';
@@ -239,14 +244,16 @@ function translateLanguage(lang) {
         about7.innerHTML = 'رحلة أوراقنا';
         about8.innerHTML = 'اكتشف كيف يتم جمع الأوراق الإندونيسية الطازجة <br> ومعالجتها قبل وصولها إلى الأسواق العالمية.';
         about9.innerHTML = 'منتجاتنا1';
-        about10.innerHTML = `IndoLeaves هي شركة تجارية متخصصة في توريد المنتجات عالية الجودة التي يتم الحصول عليها من الموردين المحليين الموثوقين في إندونيسيا.<br><br>
-        نحن نقدم مجموعة من المساحيق الممتازة بما في ذلك مسحوق المورينجا، مسحوق القرفة، مسحوق الزنجبيل، الزنجبيل الأحمر، الزنجبيل الأبيض، والقرفة. على الرغم من أننا لاعب ناشئ في التجارة العالمية، فإن نهجنا يتميز بالحداثة والشفافية والاستجابة العالية لمتطلبات الجودة الدولية.<br><br>
-        نحن نتعاون عن كثب مع شركائنا لضمان:`;
+        about10.innerHTML = `إندوليفز هي شركة تصدير متخصصة في توفير المنتجات الطبيعية عالية الجودة، والمأخوذة مباشرة من موردين محليين موثوقين في إندونيسيا.
+نقدم مجموعة من المساحيق المميزة، بما في ذلك:
+مسحوق المورينجا، مسحوق القرفة، مسحوق الزنجبيل، الزنجبيل الأحمر، الزنجبيل الأبيض، والقرفة.
+بصفتنا مُصدرًا ناشئًا في التجارة العالمية، فإن نهجنا شفاف ومرن ومُلتزم بتلبية معايير الجودة الدولية.
+نحن نعمل عن كثب مع شركائنا لضمان:`;
         about11.innerHTML = `<li>حصاد أخلاقي ومستدام</li>
                      <li>تجفيف طبيعي وطحن دقيق</li>
                      <li>تغليف بدرجة غذائية</li>
                      <li>توثيق ولوجستيات مطابقة للتصدير</li>`;
-        about12.innerHTML = `مهمتنا واضحة: <b><i>تقديم منتجات نظيفة ومتسقة وموثوقة لتلبية احتياجات صحتك وعافيتك.</i></b>`;
+        about12.innerHTML = `مهمتنا واضحة: <b><i>لتقديم منتجات نظيفة ومتسقة وموثوقة تدعم احتياجاتك الصحية والرفاهية.</i></b>`;
         serviceStart1.innerHTML = 'خدماتنا';
         serviceStart2.innerHTML = 'يوجد العديد من موردي الأوراق، لماذا يجب عليك اختيار IndoLeaves؟';
         serviceStart3.innerHTML = 'مراقبة الجودة';
@@ -312,14 +319,16 @@ function translateLanguage(lang) {
         about7.innerHTML = '我们的叶子之旅';
         about8.innerHTML = '了解新鲜印尼树叶是如何 <br> 被采集和处理，然后进入全球市场的。';
         about9.innerHTML = '我们的产品';
-        about10.innerHTML = `IndoLeaves 是一家贸易公司，专注于从印尼值得信赖的本地供应商采购高质量产品。<br><br>
-        我们提供一系列优质粉末产品，包括辣木粉、肉桂粉、生姜粉、红姜、白姜和肉桂。虽然我们在全球贸易中是一个新兴企业，但我们采取的是新颖、透明且高度响应国际质量标准的方法。<br><br>
-        我们与合作伙伴紧密合作，以确保：`;
+        about10.innerHTML = `IndoLeaves 是一家专注于出口高品质天然产品的公司，这些产品直接来自印度尼西亚值得信赖的本地供应商。
+我们提供一系列优质粉末，包括：
+辣木粉、肉桂粉、生姜粉、红姜、白姜和肉桂。
+作为全球贸易中新兴的出口商，我们秉持透明、高效的方式，并致力于符合国际质量标准。
+我们与合作伙伴紧密合作，以确保：`;
         about11.innerHTML = `<li>符合道德和可持续性的采收方式</li>
                      <li>自然阳光干燥与精细研磨</li>
                      <li>食品级包装</li>
                      <li>符合出口要求的文件和物流</li>`;
-        about12.innerHTML = '我们的使命很明确：<b><i>为您的健康与福祉需求提供干净、一致且可靠的产品。</i></b>';
+        about12.innerHTML = '我们的使命很明确：<b><i>提供干净、一致且可靠的产品，以支持您的健康与保健需求。</i></b>';
 
         serviceStart1.innerHTML = '我们的服务';
         serviceStart2.innerHTML = '有很多叶类供应商，为什么选择 IndoLeaves？';
