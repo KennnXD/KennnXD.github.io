@@ -64,6 +64,9 @@ function translateLanguage(lang) {
     const footer8 = document.getElementById('footer-8');
     const footer9 = document.getElementById('footer-9');
 
+    const detailBtn = document.querySelectorAll('.detail-btn');
+    const closeBtn = document.querySelectorAll('.close-btn');
+
     if (lang === 'en') {
 
         navHome.innerHTML = 'Home';
@@ -137,6 +140,14 @@ function translateLanguage(lang) {
         footer7.innerHTML = 'Contact';
         footer8.innerHTML = 'Follow Us';
         footer9.innerHTML = 'Copyright &copy; 2025 indoleaves.com';
+
+        detailBtn.forEach(btn => {
+            btn.innerHTML = 'Details';
+        });
+
+        closeBtn.forEach(btn => {  
+            btn.innerHTML = 'Close';
+        } );
 
     } 
 
@@ -214,6 +225,14 @@ Kami bekerja sama secara erat dengan mitra kami untuk memastikan:`;
         footer8.innerHTML = 'Ikuti Kami';
         footer9.innerHTML = 'Hak Cipta &copy; 2025 indoleaves.com';
 
+        detailBtn.forEach(btn => {
+            btn.innerHTML = 'Detail';
+        });
+
+        closeBtn.forEach(btn => {  
+            btn.innerHTML = 'Tutup';
+        } );
+
     } 
     
     if (lang === 'arb') {
@@ -288,6 +307,14 @@ Kami bekerja sama secara erat dengan mitra kami untuk memastikan:`;
         footer7.innerHTML = 'اتصل';
         footer8.innerHTML = 'تابعنا';
         footer9.innerHTML = 'حقوق النشر &copy; 2025 indoleaves.com';
+
+        detailBtn.forEach(btn => {
+            btn.innerHTML = 'التفاصيل';
+        });
+
+        closeBtn.forEach(btn => {  
+            btn.innerHTML = 'إغلاق';
+        });
 
     } 
     
@@ -364,6 +391,14 @@ Kami bekerja sama secara erat dengan mitra kami untuk memastikan:`;
         footer7.innerHTML = '联系';
         footer8.innerHTML = '关注我们';
         footer9.innerHTML = '版权 &copy; 2025 indoleaves.com';
+
+        detailBtn.forEach(btn => {
+            btn.innerHTML = '详情';
+        });
+
+        closeBtn.forEach(btn => {  
+            btn.innerHTML = '关闭';
+        });
 
     }
 }

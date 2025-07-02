@@ -54,18 +54,22 @@ function translateProducts(lang) {
     if (lang === 'id') {
         createProductCard(productDataId);
         createModal(productDataId);
+        translateLanguage('id');
     } 
     if (lang === 'en') {
         createProductCard(productDataEng);
         createModal(productDataEng);
+        translateLanguage('en');
     }
     if (lang === 'arb') {
         createProductCard(productDataArb);
         createModal(productDataArb);
+        translateLanguage('arb');
     }
     if (lang === 'chn') {
         createProductCard(productDataChn);
         createModal(productDataChn);
+        translateLanguage('chn');
     }
 }
 
@@ -81,7 +85,7 @@ function createProductCard(products) {
                     <div class="card-body">
                     <h4 class="fw-bold mb-3">${product.nama}</h4>
                     <p>${product.deskripsi}</p>
-                    <button type="button" class="btn btn-success float-end shadow mt-2" data-bs-toggle="modal" data-bs-target="#${product.id}">Details <i class="bi bi-caret-right-fill"></i></button>
+                    <button type="button" class="detail-btn btn btn-success float-end shadow mt-2" data-bs-toggle="modal" data-bs-target="#${product.id}">Details <i class="bi bi-caret-right-fill"></i></button>
                     </div>
                 </div>
             </div>
@@ -125,7 +129,7 @@ function createModal(products) {
                             </ul>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="close-btn btn btn-danger" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
